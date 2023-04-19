@@ -1,0 +1,85 @@
+.form {
+    background: #f9f3f2;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.divform {
+    justify-content: center;
+    padding: 10px 20px;
+    display: block;
+    flex: column;
+    max-width: 800px;
+    width: 800px;
+}
+
+label {
+    color: #0044;
+    display: flex;
+    flex: start;
+    width: 80%;
+    max-width: 600px;
+}
+
+.input {
+    height: 30px;
+    width: 80%;
+    min-width: 600px;
+    border: 3px solid #b2b1
+}
+
+@media (max-width:800px) {
+    form {
+        max-width: 600px;
+    }
+
+    input {
+        width: 90%;
+        display: flex;
+        flex: start;
+        max-width: 500px
+    }
+
+
+}
+
+.exito {
+    color: green;
+}
+
+button {
+    transition: all .3s ease;
+    cursor: pointer;
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #dfc9f2;
+    z-index: 100;
+}
+
+button:hover {
+
+    border-radius: 10px;
+
+    border-bottom: 3px solid #000;
+    border: 2px solid #855eee;
+
+}
+
+.error {
+    color: red;
+}
+
+.textareainput {
+    width: 400px;
+    max-width: 100%;
+}
+
+.divarea {
+    left: -10px;
+    display: flex;
+    flex: start;
+    margin: 10px 30px;
+    padding: 0.5rem;
+}
